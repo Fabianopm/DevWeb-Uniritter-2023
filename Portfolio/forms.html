@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo2.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <div class="formulario-text">
+                <p>Preencha as informações:</p>
+            </div>
+            <div class="cabecalho-link">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Projetos</a>
+                </li>
+                <button>
+                    <a href="mailto:fabianopmonteiro@gmail.com.br">Meu contato</a>
+                </button>
+            </div>
+        </header>
+        <img src="img/Hand coding-amico.png" alt="figura">
+        <div class="container-form">
+            <div class="text-form">
+                <form action="recebe_form" target="_blank">
+                    <fieldset class="grupo">
+                        <div class="campo">
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome" required placeholder="Nome:">
+                        </div>
+
+                        <div class="campo">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" name="sobrenome" id="sobrenome" required placeholder="Sobrenome:">
+                        </div>
+                    </fieldset>
+
+                    <div class="campo">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="ex: xxx@gmail.com">
+                    </div>
+
+                    <div class="campo">
+                        <label for="">Você se considera um desenvolvedor:</label>
+                        <label for="">
+                            <input type="radio" name="devweb" id="frontend" checked>Front-end
+                        </label>
+                        <label for="">
+                            <input type="radio" name="devweb" id="backend">Back-end
+                        </label>
+                        <label for="">
+                            <input type="radio" name="devweb" id="fullstack">Full-stack
+                        </label>
+                    </div>
+
+                    <div class="campo">
+                        <label for="">Qual das tecnologias abaixo você domina:</label>
+                        <label for="">
+                            <input type="radio" name="tech" id="html" checked>HTML
+                        </label>
+                        <label for="">
+                            <input type="radio" name="tech" id="css">CSS
+                        </label>
+                        <label for="">
+                            <input type="radio" name="tech" id="js">JAVASCRIPT
+                        </label>
+                    </div>
+
+                    <div class="campo">
+                        <label for="">Gostaria de fazer parte do nosso time de Devs?</label>
+                        <input type="checkbox" >Sim
+                        <input type="checkbox" >Não
+                    </div>
+
+                    <div class="campo">
+                        <br>
+                        <label for="">Nos conte um pouco sobre você:</label>
+                        <textarea row="6"  style="width: 26em" name="" id="experiencia"></textarea>
+                    </div>
+
+                    <button class="btn-form" type="submit">Concluído</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+</html>

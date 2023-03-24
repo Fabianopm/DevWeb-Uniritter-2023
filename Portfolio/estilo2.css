@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background{
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5));
+    background-image: url(img/bg2.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+header p{
+    margin-left: -134px;
+    color: #fff;
+    font-size: 23.5px;
+}
+
+.cabecalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabecalho-link a{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.cabecalho-link a:hover{
+    border-bottom: 2px solid rgb(164, 86, 238);
+    color: rgb(255, 255, 255);
+    transition: .6s all;
+}
+
+
+button{
+    color: rgb(164, 86, 238);
+    background: transparent;
+    border: solid 1px rgb(164, 86, 238);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(164, 86, 238);
+    color: #fff;
+    transition: 0.5s;
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    font-size: 1em;
+    color: #fff;
+    justify-content: center;
+}
+
+.container-form{
+    padding: 40px 0px  90px 130px;
+}
+
+input, textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.5em;
+    color: #fff;
+    display: block;
+}
+
+fieldset .grupo .campo{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo textarea{
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 1px 1px 1px #fff;
+    display: block;
+}
+
+.campo input:focus, .campo textarea:focus{
+    background: #e0e0f8 ;
+}
+
+.btn-form{
+    border-color: black;
+    color: black;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+img{
+    width: 500px;
+    display: flex;
+    align-items: right;
+    float: right;
+    margin-right: 180px;
+    margin-top: 90px;
+}
