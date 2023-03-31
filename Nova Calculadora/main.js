@@ -7,12 +7,12 @@ function insert(num) {
     num; /*+= num ---> numero + num*/
 }
 
-/*Funçaõ criada para apagar os caracteres aparentes no visor*/
+/*Funçaõ criada para apagar os numeros aparentes no visor*/
 function clean() {
   document.getElementById("resultado").innerHTML = "";
 }
 
-/*Funçaõ criada para apagar caractere por caractere do último ao primeiro*/
+/*Função criada para apagar caractere por caractere do último ao primeiro*/
 function back() {
   var resultado = document.getElementById("resultado").innerHTML;
   document.getElementById("resultado").innerHTML = resultado.substring(
